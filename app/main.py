@@ -4,5 +4,5 @@ app = FastAPI()
 
 @app.get("/testeEndpoint")
 def root():
-    print('teste de commit!')
+    print('teste de commit!!')
     return {"status": "ok"}
